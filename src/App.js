@@ -7,6 +7,7 @@ import Signup from './components/sign-up'
 import LoginForm from './components/login-form'
 import Navbar from './components/navbar'
 import Home from './components/home'
+import WorkOrder from "./components/workOrder";
 
 class App extends Component {
   constructor() {
@@ -75,6 +76,13 @@ class App extends Component {
           render={() =>
             <Signup/>}
         />
+        <Route
+          path="/work-order"
+          render={() =>
+            <WorkOrder />
+          }
+        />
+
 
       </div>
     );
