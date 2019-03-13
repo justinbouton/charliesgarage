@@ -53,34 +53,33 @@ class Navbar extends Component {
   </Menu>
   </Segment>
 
-
-              <header>
-                  <div>
-                      {loggedIn ? (
-                          <Menu fixed='top' inverted>
-                              <Menu.Item as={Link} to='/'>Home</Menu.Item>
-                              <Menu.Item as={Link} to='about'>About</Menu.Item>
-                              <Menu.Item as={Link} to='contact'>Contact</Menu.Item>
-                              <Menu.Item position='right' to="#" onClick={this.logout}>logout</Menu.Item>
-                          </Menu>
-                      ) : (
-                          <Menu fixed='top' inverted>
-                              <Menu.Item as={Link} to='/'>Home</Menu.Item>
-                              <Menu.Item as={Link} to='about'>About</Menu.Item>
-                              <Menu.Item as={Link} to='contact'>Contact</Menu.Item>
-                              <Menu.Item position='right' as={Link} to="/login">login</Menu.Item>
-                              <Menu.Item as={Link} to="/signup">sign up</Menu.Item>
-                          </Menu>
-                          )}
-                  </div>
-                  {/* <div className="col-4 col-mr-auto">
-                      <div id="top-filler"></div> 
-                      <img src={logo} className="App-logo" alt="logo" /> 
-                      <h1 className="App-title">MERN Passport</h1> 
-                      </div>
-                  */}
-              </header>
-          </div>
+                <header>
+                    `<div>
+                        {loggedIn ? (
+                            <Menu fixed='top' inverted>
+                                <Menu.Item as={Link} to='/'>Home</Menu.Item>
+                                <Menu.Item as={Link} to='about'>About</Menu.Item>
+                                <Menu.Item as={Link} to='contact'>Contact</Menu.Item>
+                                <Menu.Item position='right' to="#" onClick={this.logout}>logout</Menu.Item>
+                            </Menu>
+                        ) : (
+                            <Menu fixed='top' inverted>
+                                <Menu.Item as={Link} to='/'>Home</Menu.Item>
+                                <Menu.Item as={Link} to='about'>About</Menu.Item>
+                                <Menu.Item as={Link} to='contact'>Contact</Menu.Item>
+                                <Menu.Item position='right' as={Link} to="/login">login</Menu.Item>
+                                <Menu.Item as={Link} to="/signup">sign up</Menu.Item>
+                            </Menu>
+                            )}
+                    </div>`
+                    {/* <div className="col-4 col-mr-auto">
+                        <div id="top-filler"></div> 
+                        <img src={logo} className="App-logo" alt="logo" /> 
+                        <h1 className="App-title">MERN Passport</h1> 
+                        </div>
+                    */}
+                </header>
+            </div>
 
         );
 
