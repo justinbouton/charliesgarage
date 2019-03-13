@@ -55,7 +55,7 @@ class Navbar extends Component {
 
 
                 <header>
-                    <div>
+                    `<div>
                         {loggedIn ? (
                             <Menu fixed='top' inverted>
                                 <Menu.Item as={Link} to='/'>Home</Menu.Item>
@@ -72,7 +72,7 @@ class Navbar extends Component {
                                 <Menu.Item as={Link} to="/signup">sign up</Menu.Item>
                             </Menu>
                             )}
-                    </div>
+                    </div>`
                     {/* <div className="col-4 col-mr-auto">
                         <div id="top-filler"></div> 
                         <img src={logo} className="App-logo" alt="logo" /> 

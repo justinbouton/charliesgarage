@@ -98,23 +98,15 @@ class DesktopContainer extends Component {
               secondary={!fixed}
               size='large'
             >
-              {/* <Container>
-                <Menu.Item as='a' active>
-                  Home
-                  </Menu.Item>
-                <Menu.Item as='a'>Work</Menu.Item>
-                <Menu.Item as='a'>Company</Menu.Item>
-                <Menu.Item as='a'>Careers</Menu.Item>
-                <Menu.Item position='right'>
-                  <Button as={Link} to='logi
-                  nForm' inverted={!fixed}>
-                    Log in
-                  </Button>
-                  <Button as={Link} to='signup' inverted={!fixed} primary={fixed} style={{ marginLeft: '0.5em' }}>
-                    Sign Up
-                  </Button>
-                </Menu.Item>
-              </Container> */}
+
+<Menu fixed='top'>
+                                <Menu.Item as={Link} to='/'>Home</Menu.Item>
+                                <Menu.Item as={Link} to='about'>About</Menu.Item>
+                                <Menu.Item as={Link} to='contact'>Contact</Menu.Item>
+                                <Menu.Item position='right' as={Link} to="/login">login</Menu.Item>
+                                <Menu.Item as={Link} to="/signup">sign up</Menu.Item>
+                            </Menu>
+             
             </Menu>
             <HomepageHeading />
           </Segment>
@@ -155,9 +147,9 @@ class MobileContainer extends Component {
           vertical
           visible={sidebarOpened}
         >
-          <Menu.Item as='a' active>
+          {/* <Menu.Item as='a' active>
             Home
-          </Menu.Item>
+          </Menu.Item> */}
           {/* <Menu.Item as='a'>Work</Menu.Item>
           <Menu.Item as='a'>Company</Menu.Item>
           <Menu.Item as='a'>Careers</Menu.Item>
