@@ -34,25 +34,24 @@ class Navbar extends Component {
         console.log(this.props);
         
         return (
-            <div>
+          <div>
 
-{/* <Segment inverted>
-    <Menu fixed='top' inverted>
-      <Menu.Item as={Link} to='/'> <Icon name='home' />Home</Menu.Item>
-      <Menu.Item active> <Icon name='user' />About</Menu.Item>
-      <Menu.Item active> <Icon name='info' />Contact</Menu.Item>
+  <Segment inverted>
+  <Menu fixed='top' inverted>
+    <Menu.Item as={Link} to='/'> <Icon name='home' />Home</Menu.Item>
+    <Menu.Item active> <Icon name='user' />About</Menu.Item>
+    <Menu.Item active> <Icon name='info' />Contact</Menu.Item>
 
 
-      <Menu.Item position='right'>
-        <Button primary as={Link} to='signup' style={{ marginLeft: '0.5em' }} >Sign up</Button>
-      </Menu.Item>
+    <Menu.Item position='right'>
+      <Button primary as={Link} to='signup' style={{ marginLeft: '0.5em' }} >Sign up</Button>
+    </Menu.Item>
 
-      <Menu.Item>
-        <Button as={Link} to='login'>Log-in</Button>
-      </Menu.Item>
-    </Menu>
-  </Segment> */}
-
+    <Menu.Item>
+      <Button as={Link} to='login'>Log-in</Button>
+    </Menu.Item>
+  </Menu>
+  </Segment>
 
                 <header>
                     `<div>
