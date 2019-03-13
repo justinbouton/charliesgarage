@@ -1,0 +1,46 @@
+/* html {
+    background-color: #1b1c1c;
+}
+
+div {
+    background-color: #1b1c1c;
+} */
+
+body {
+    /* margin: 0 auto; */
+    align-content: center;
+    min-height: 100%;
+    width: 100%;
+}
+.aboutCards {
+    width: 85%;
+    margin: 100px auto 0 auto;
+    padding-top: 50px;
+    background: #ECEFF1;
+    min-height: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    padding: 20px;
+    justify-content: space-around;
+    align-content: center;
+    overflow: auto;
+}
+
+.cardContent {
+    margin: 0 auto;
+    
+    
+}
+
+.someCard {
+    flex-grow: 1;
+    border: none;
+    border-top: 1px solid rgba(34,36,38,.1);
+    background: 0 0;
+    margin: 0;
+    padding: 1em 1em;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    font-size: 1em;
+    border-radius: 0;
+}
