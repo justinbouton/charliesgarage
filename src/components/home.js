@@ -139,14 +139,14 @@ class MobileContainer extends Component {
         getWidth={getWidth}
         maxWidth={Responsive.onlyMobile.maxWidth}
       >
-        <Sidebar
+        {/* <Sidebar
           as={Menu}
           animation='push'
           inverted
           onHide={this.handleSidebarHide}
           vertical
           visible={sidebarOpened}
-        >
+        > */}
           {/* <Menu.Item as='a' active>
             Home
           </Menu.Item> */}
@@ -155,7 +155,7 @@ class MobileContainer extends Component {
           <Menu.Item as='a'>Careers</Menu.Item>
           <Menu.Item as={Link} to='/loginForm'>Log in</Menu.Item>
           <Menu.Item as='a'>Sign Up</Menu.Item> */}
-        </Sidebar>
+        {/* </Sidebar> */}
 
         <Sidebar.Pusher dimmed={sidebarOpened}>
           {/* <Segment
