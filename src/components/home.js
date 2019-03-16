@@ -52,7 +52,7 @@ const HomepageHeading = ({ mobile }) => (
         fontWeight: 'normal',
         marginTop: mobile ? '0.5em' : '1.5em',
       }}
-    />    
+    />
     <Button as={Link} to='/work-order' primary size='huge'>
       Find a Mechanic
       <Icon name='right arrow' />
@@ -91,7 +91,7 @@ class DesktopContainer extends Component {
             style={{ minHeight: 700, padding: '1em 0em' }}
             vertical
           >
-            <Menu
+            {/* <Menu
               fixed={fixed ? 'top' : null}
               inverted={!fixed}
               pointing={!fixed}
@@ -99,15 +99,15 @@ class DesktopContainer extends Component {
               size='large'
             >
 
-<Menu fixed='top'>
-                                <Menu.Item as={Link} to='/'>Home</Menu.Item>
-                                <Menu.Item as={Link} to='about'>About</Menu.Item>
-                                <Menu.Item as={Link} to='contact'>Contact</Menu.Item>
-                                <Menu.Item position='right' as={Link} to="/login">login</Menu.Item>
-                                <Menu.Item as={Link} to="/signup">sign up</Menu.Item>
-                            </Menu>
-             
-            </Menu>
+              <Menu fixed='top'>
+                <Menu.Item as={Link} to='/'>Home</Menu.Item>
+                <Menu.Item as={Link} to='about'>About</Menu.Item>
+                <Menu.Item as={Link} to='contact'>Contact</Menu.Item>
+                <Menu.Item position='right' as={Link} to="/login">login</Menu.Item>
+                <Menu.Item as={Link} to="/signup">sign up</Menu.Item>
+              </Menu>
+
+            </Menu> */}
             <HomepageHeading />
           </Segment>
         </Visibility>
@@ -158,7 +158,7 @@ class MobileContainer extends Component {
         </Sidebar>
 
         <Sidebar.Pusher dimmed={sidebarOpened}>
-          <Segment
+          {/* <Segment
             inverted
             textAlign='center'
             style={{ minHeight: 350, padding: '1em 0em' }}
@@ -180,7 +180,7 @@ class MobileContainer extends Component {
               </Menu>
             </Container>
             <HomepageHeading mobile />
-          </Segment>
+          </Segment> */}
 
           {children}
         </Sidebar.Pusher>
