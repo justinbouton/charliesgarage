@@ -2,6 +2,7 @@ import React from 'react'
 import { Card  } from 'semantic-ui-react'
 import { Image } from 'semantic-ui-react'
 import "../assets/css/about.css";
+// import "../assets/images/"
 
 const AboutCards = () => (
   <div className="aboutCards">

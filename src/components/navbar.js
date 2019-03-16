@@ -52,7 +52,6 @@ class Navbar extends Component {
     </Menu.Item>
   </Menu>
   </Segment>
-
                 <header>
                     `<div>
                         {loggedIn ? (
